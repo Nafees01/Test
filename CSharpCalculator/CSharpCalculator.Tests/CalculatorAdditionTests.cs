@@ -13,7 +13,7 @@ namespace CSharpCalculator.Tests
             double expected = 8;
 
             double result = Program.Add(num1, num2); 
-            Assert.NotNull(num1);
+            Assert.Equal(expected, result);
 
         }
     }
