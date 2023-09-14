@@ -9,7 +9,7 @@ namespace CSharpCalculator.Tests
         public void TestSubtraction(double num1, double num2, double expected)
         {
             double result = Program.Subtract(num1, num2); 
-            Assert.NotNull(num1);
+             Assert.Equal(expected, result);
 
         }
     }
